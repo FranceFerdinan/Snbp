@@ -1,2 +1,92 @@
-# Snbp
-Halo
+<!DOCTYPE html><html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBNP 2025 - Universitas Plus Nusa Putra</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: white;
+        }
+        .header {
+            background: linear-gradient(to right, #005baa, #0088cc);
+            padding: 20px;
+        }
+        .header img {
+            height: 70px;
+            display: block;
+            margin-bottom: 0px;
+        }
+        .header-text {
+            font-weight: bold;
+            font-size: 20px;
+            text-align: left;
+        }
+        .container {
+            background-color: #222;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .title {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .info {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .info img {
+            height: 90px;
+        }
+        .text {
+            line-height: 1.8;
+        }
+        .label {
+            color: #00aaff;
+        }
+        .value {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="p.png" alt="Logo SNBP">
+        <div class="header-text">SELAMAT! ANDA DINYATAKAN LULUS SELEKSI SNBP 2025</div>
+    </div>
+    <div class="container">
+        <div class="info">
+            <img src="qrcode.png" alt="QR Code">
+            <div class="text">
+                <div class="label">NISN</div>
+                <div class="value">00XXXXXXXX</div>
+                <div class="label">Nama</div>
+                <div class="value">Muhamad Perdi</div>
+                <div class="label">Program Studi</div>
+                <div class="value">TEKNIK INFORMATIKA (S1)</div>
+                <div class="value">UNIVERSITAS PLUS NUSA PUTRA</div>
+            </div>
+        </div>
+        <br>
+        <div class="text">
+            <div class="label">Tanggal Lahir</div>
+            <div class="value">01 Febuari 2008</div><div class="label">Asal Sekolah</div>
+        <div class="value">SMKS  PLUS NUSA PUTRA</div>
+
+        <div class="label">Kabupaten/Kota</div>
+        <div class="value">Kab. Sukabumi</div>
+
+        <div class="label">Provinsi</div>
+        <div class="value">Prov. Jawa Barat</div>
+    </div>
+</div>
+
+</body>
+</html>
